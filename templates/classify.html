@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Waste Classification</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/classify.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <h2>♻ Smart Waste Segregation</h2>
+
+    <nav>
+
+        <a href="/">Home</a>
+
+        <a href="/dashboard">Dashboard</a>
+
+        <a href="/login">Logout</a>
+
+    </nav>
+
+</header>
+
+<div class="container">
+
+    <div class="upload-card">
+
+        <h1>AI Waste Classification</h1>
+
+        <p>
+            Upload a waste image and let AI identify the waste category.
+        </p>
+
+        <form action="/predict"
+              method="POST"
+              enctype="multipart/form-data">
+
+            <input
+                type="file"
+                id="image"
+                name="image"
+                accept="image/*"
+                onchange="previewImage(event)"
+                required>
+
+            <br><br>
+
+            <img id="preview"
+                 src=""
+                 alt="Image Preview">
+
+            <br><br>
+
+            <button type="submit">
+
+                Classify Image
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script>
+
+function previewImage(event){
+
+var image=document.getElementById("preview");
+
+image.src=URL.createObjectURL(event.target.files[0]);
+
+image.style.display="block";
+
+}
+
+</script>
+
+</body>
+
+</html>

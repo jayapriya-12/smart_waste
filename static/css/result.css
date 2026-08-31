@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background-image:url("https://images.unsplash.com/photo-1532996122724-e3c354a0b15b");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.55);
+}
+
+.card{
+
+    width:600px;
+
+    padding:40px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:20px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+.card h1{
+
+    color:#7CFC00;
+
+    margin-bottom:25px;
+}
+
+.card img{
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    border:4px solid #7CFC00;
+
+    margin-bottom:20px;
+}
+
+.card h2{
+
+    color:#FFD700;
+
+    margin-bottom:15px;
+}
+
+.card p{
+
+    line-height:30px;
+
+    font-size:18px;
+
+    margin-bottom:25px;
+}
+
+button{
+
+    padding:14px 30px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#28a745;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+    background:#1e7e34;
+}
+
+.back{
+
+    background:#ffc107;
+
+    color:black;
+}
+
+.back:hover{
+
+    background:#e0a800;
+}

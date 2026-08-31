@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/dashboard.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h2>♻ Smart Waste Segregation</h2>
+
+</div>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/classify">Classify Waste</a>
+
+<a href="/login">Logout</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>Welcome 👋</h1>
+
+<p>
+AI Powered Waste Classification and Recycling System
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>🗑 Waste Classification</h2>
+
+<p>
+Upload an image and classify waste using AI.
+</p>
+
+<a href="/classify">
+
+<button>
+
+Start Classification
+
+</button>
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>♻ Recycling Tips</h2>
+
+<p>
+
+Reduce • Reuse • Recycle
+
+Protect Nature for Future Generations.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🌍 Save Environment</h2>
+
+<p>
+
+Keep your surroundings clean.
+
+Every waste belongs in the correct bin.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

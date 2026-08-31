@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background-image:url("https://images.unsplash.com/photo-1532996122724-e3c354a0b15b");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+.overlay{
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,0.55);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register-box{
+
+    width:450px;
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+.register-box h1{
+
+    color:#7CFC00;
+
+    margin-bottom:10px;
+}
+
+.register-box h3{
+
+    margin-bottom:30px;
+
+    font-weight:400;
+}
+
+.register-box input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin:10px 0;
+
+    border:none;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:16px;
+}
+
+.register-box button{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-top:20px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#28a745;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.register-box button:hover{
+
+    background:#1e7e34;
+
+    transform:scale(1.05);
+}
+
+.register-box p{
+
+    margin-top:20px;
+}
+
+.register-box a{
+
+    color:#7CFC00;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
+
+.register-box a:hover{
+
+    text-decoration:underline;
+}
