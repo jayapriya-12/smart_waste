@@ -55,3 +55,12 @@ smart_waste/
 │
 └── static/
     └── css/
+
+👩‍💻 Developed By
+Jayapriya R
+
+B.Tech – Computer Science and Business Systems (CSBS)
+
+VSB Engineering College, Karur
+
+Academic Year: 2026–2027
