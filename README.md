@@ -1,66 +1,58 @@
-# ♻️ Smart Waste Segregation
+♻️ Smart Waste Segregation
 
-## 📌 About the Project
+Smart Waste Segregation is an AI-powered web application that classifies waste images and helps users identify the correct waste category for proper segregation and recycling.
 
-Smart Waste Segregation is an AI-powered web application that helps users identify different types of waste and provides suitable recycling or disposal suggestions.
+## ✨ Features
+- 🖼️ Upload waste images
+- 🤖 AI-based waste classification
+- ♻️ Waste segregation assistance
+- 🌍 Recycling tips
+- 🔐 User registration and login
+- 🏠 Simple and user-friendly interface
+- 📱 Responsive web interface
 
-The system uses a deep learning model to classify waste images into categories such as Cardboard, Glass, Metal, Paper, Plastic, and Trash.
-
-## 🚀 Features
-
-- 🔐 User Registration and Login
-- 🗑️ AI-based Waste Classification
-- ♻️ Recycling and Disposal Tips
-- 🌱 Environment-friendly Waste Management
-- 📊 Simple and User-friendly Dashboard
-- 🌐 Web-based Application
-
-## 🧠 Waste Categories
-
-The AI model can classify waste into:
-
-- Cardboard
-- Glass
-- Metal
-- Paper
-- Plastic
-- Trash
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS
-- **Backend:** Python, Flask
-- **AI/ML:** TensorFlow, Keras
-- **Database:** SQLite
-- **Image Processing:** Pillow, NumPy
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### AI / Machine Learning
+- TensorFlow
+- Deep Learning
+- Image Classification
+
+### Database
+- SQLite
+
+
+## 🔄 How It Works
+
+1. User registers or logs into the application.
+2. User opens the **Classify Waste** page.
+3. User uploads an image of waste.
+4. The AI model processes the uploaded image.
+5. The system predicts the waste category.
+6. The result is displayed to the user.
+7. Users can follow the provided recycling and waste-management tips.
 
 ## 📂 Project Structure
 
-```text
 smart_waste/
 │
 ├── app.py
-├── ai_model.py
 ├── database.py
-├── waste_model.keras
+├── waste.db
 ├── requirements.txt
 ├── runtime.txt
-├── waste.db
-│
 ├── templates/
-│   ├── login.html
-│   ├── register.html
-│   ├── index.html
-│   └── classify.html
-│
-└── static/
-    └── css/
+├── static/
+└── README.md
 
-👩‍💻 Developed By
-Jayapriya R
-
-B.Tech – Computer Science and Business Systems (CSBS)
-
-VSB Engineering College, Karur
-
-Academic Year: 2026–2027
+deploy link :  https://smart-waste-4-zaw4.onrender.com/
