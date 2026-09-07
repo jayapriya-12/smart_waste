@@ -1,4 +1,4 @@
-♻️ Smart Waste Segregation
+♻️ SMART WASTE SEGREGATION AND RECOMMENDED SYSTEMS
 
 Smart Waste Segregation is an AI-powered web application that classifies waste images and helps users identify the correct waste category for proper segregation and recycling.
 
