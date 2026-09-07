@@ -16,5 +16,3 @@ CREATE TABLE IF NOT EXISTS users(
 
 conn.commit()
 conn.close()
-
-print("Database Created Successfully!")
